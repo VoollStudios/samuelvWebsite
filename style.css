@@ -147,3 +147,44 @@ body{
 .content p{
     text-align: center;
 }
+
+.form{
+    margin-top: 15px;
+    display: block;
+}
+
+.form input{
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.form textarea{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 15px;
+}
+
+.form button{
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+}
+
+.form button:hover{
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+#about-title{
+    margin-bottom: 5px;
+}
