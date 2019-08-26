@@ -3,10 +3,15 @@
     padding: 0;
     font-family: 'nuntio', sans-serif;
     color: black;
+    box-sizing: border-box;
 }
 
 body{
     background: #fff;
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
 }
 
 .header{
@@ -148,6 +153,10 @@ body{
     text-align: center;
 }
 
+.content{
+    height: 100%;
+}
+
 .form{
     margin-top: 15px;
     display: block;
@@ -192,4 +201,19 @@ body{
 #about-me{
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.footer{
+    background-color: rgb(143, 143, 143);
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer img{
+    height: 30px;
 }
