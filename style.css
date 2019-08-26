@@ -98,8 +98,8 @@ body{
         text-align: center;
         padding: 80px 0;
         line-height: normal;
-        -moz-transition: 0.7s;
-        -webkit-transition: 0.7s;
+        -moz-transition: 0.9s;
+        -webkit-transition: 0.9s;
     }
     .menu a{
         display: block;
@@ -130,12 +130,12 @@ body{
     border: solid 1px black;
     margin-top: 9px;
     border-radius: 15px;
-    padding: 5px;
+    padding: 10px;
     text-decoration-style: none;
     background-color: whitesmoke;
     color: black;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #downloadpagebtn button:hover {
@@ -216,4 +216,24 @@ body{
 
 .footer img{
     height: 30px;
+}
+
+#aboutpage button{
+    border: solid 1px black;
+    margin-top: 9px;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration-style: none;
+    background-color: whitesmoke;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#aboutpage button:hover{
+    background-color: black;
+    color: white;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
 }
