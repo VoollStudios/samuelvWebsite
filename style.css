@@ -204,14 +204,15 @@ body{
 }
 
 .footer{
-    background-color: rgb(143, 143, 143);
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px -10px;
     text-align: center;
     padding: 20px;
     margin-top: auto;
 }
 
 .footer p{
-    color: white;
+    color: black;
 }
 
 .footer img{
