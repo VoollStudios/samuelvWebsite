@@ -250,7 +250,7 @@ body{
     }
 }
 
-@media screen and (max-width:){
+@media screen and (max-width:200){
     .errorpic{
         height: 100px;
     }
