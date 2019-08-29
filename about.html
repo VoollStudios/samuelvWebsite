@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>About</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,16 +28,27 @@
 
     <div class="content">
         <!--Place Content Here-->
-        <div>
-            <h1>Welcome To Sams Website</h1>
-            <h2>This Website Is In Devlopment :)</h2>
-            <center>
-                <a id="downloadpagebtn" href="downloads.html"><button>Go To Download Page!</button></a>
-            </center>
-            <center>
-                <a id="aboutpage" href="about.html"><button>Learn More About Me!</button></a>
-            </center>
-        </div>
+        <center>
+            <h1 id="about-title">About Page!</h1>
+            <spacer></spacer>
+            <p id="about-me">
+                My Name is Samuel V and I am a web devloper
+                and this website you are on, Is one of my lovely
+                websites and if you want to contact me there is a
+                form below.
+            </p>
+            <form name="contact" class="form" netlify>
+                <div>
+                    <input placeholder="your name..." type="text" name="name" id="name-input">
+                    <input placeholder="your email..." type="email" name="email" id="email-input">
+                </div>
+
+                <div>
+                    <textarea placeholder="Message..." name="message" id="msg-box" cols="30" rows="10"></textarea>
+                </div>
+                <div> <button type="submit">Submit</button> </div>
+            </form>
+        </center>
     </div>
 
     <footer class="footer">
