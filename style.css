@@ -238,3 +238,8 @@ body{
     -webkit-transition: 0.7s;
     -moz-transition: 0.7s;
 }
+
+.errorpic{
+    margin-top: 15px;
+    height: 400px;
+}
