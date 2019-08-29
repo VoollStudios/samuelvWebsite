@@ -243,3 +243,15 @@ body{
     margin-top: 15px;
     height: 400px;
 }
+
+@media screen and (max-width:800px){
+    .errorpic{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:){
+    .errorpic{
+        height: 100px;
+    }
+}
